@@ -13,7 +13,7 @@ Secondly, we read the file "X_train.txt" into R and call the resulting data fram
 
 Thirdly, we read the file "y_train.txt" into R and call the resulting data frame y_TRAIN. It lists the training labels. Now, we would like to use descriptive activity names to name the activities in the data frame y_TRAIN. For this purpose, we are going to merge y_TRAIN and ACTIVITY_LABELS. To achieve it, we need plyr and dplyr packages. After we have joined these two data frames by the first column that V1, we drop V1 as we do not need it in the future. The resulting data frame is called joinedtrain.
 
-The three data frames that are SUBJECT_TEST, joinedtrain and X_TEST are ready be bound column-wise. This newly produced data frame is called TRAIN. It lists the subjects with their respective numbers in train group, the activities they performed, the values measured for each activity and each subject.
+The three data frames that are SUBJECT_TEST, joinedtrain and X_TEST are ready to be bound column-wise. This newly produced data frame is called TRAIN. It lists the subjects with their respective numbers in train group, the activities they performed, the values measured for each activity and each subject.
 
 The steps carried out for the train data set are executed the test data set set as well. Then we end up with the data frame called TEST. 
 
