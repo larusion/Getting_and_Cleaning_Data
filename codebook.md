@@ -524,94 +524,94 @@ V1: Each label represents the activity the subject in the test
       fBodyGyro.bandsEnergy...33.48
       fBodyGyro.bandsEnergy...49.64
       fBodyGyro.bandsEnergy...1.24
-fBodyGyro.bandsEnergy...25.48
-fBodyGyro.bandsEnergy...1.8.1
-fBodyGyro.bandsEnergy...9.16.1
-fBodyGyro.bandsEnergy...17.24.1
-fBodyGyro.bandsEnergy...25.32.1
-fBodyGyro.bandsEnergy...33.40.1
-fBodyGyro.bandsEnergy...41.48.1
-fBodyGyro.bandsEnergy...49.56.1
-fBodyGyro.bandsEnergy...57.64.1
-fBodyGyro.bandsEnergy...1.16.1
-fBodyGyro.bandsEnergy...17.32.1
-fBodyGyro.bandsEnergy...33.48.1
-fBodyGyro.bandsEnergy...49.64.1
-fBodyGyro.bandsEnergy...1.24.1
-fBodyGyro.bandsEnergy...25.48.1
-fBodyGyro.bandsEnergy...1.8.2
-fBodyGyro.bandsEnergy...9.16.2
-fBodyGyro.bandsEnergy...17.24.2
-fBodyGyro.bandsEnergy...25.32.2
-fBodyGyro.bandsEnergy...33.40.2
-fBodyGyro.bandsEnergy...41.48.2
-fBodyGyro.bandsEnergy...49.56.2
-fBodyGyro.bandsEnergy...57.64.2
-fBodyGyro.bandsEnergy...1.16.2
-fBodyGyro.bandsEnergy...17.32.2
-fBodyGyro.bandsEnergy...33.48.2
-fBodyGyro.bandsEnergy...49.64.2
-fBodyGyro.bandsEnergy...1.24.2
-fBodyGyro.bandsEnergy...25.48.2
-fBodyAccMag.mean..
-fBodyAccMag.std..
-fBodyAccMag.mad..
-fBodyAccMag.max..
-fBodyAccMag.min..
-fBodyAccMag.sma..
-fBodyAccMag.energy..
-fBodyAccMag.iqr..
-fBodyAccMag.entropy..
-fBodyAccMag.maxInds
-fBodyAccMag.meanFreq..
-fBodyAccMag.skewness..
-fBodyAccMag.kurtosis..
-fBodyBodyAccJerkMag.mean..
-fBodyBodyAccJerkMag.std..
-fBodyBodyAccJerkMag.mad..
-fBodyBodyAccJerkMag.max..
-fBodyBodyAccJerkMag.min..
-fBodyBodyAccJerkMag.sma..
-fBodyBodyAccJerkMag.energy..
-fBodyBodyAccJerkMag.iqr..
-fBodyBodyAccJerkMag.entropy..
-fBodyBodyAccJerkMag.maxInds
-fBodyBodyAccJerkMag.meanFreq..
-fBodyBodyAccJerkMag.skewness..
-fBodyBodyAccJerkMag.kurtosis..
-fBodyBodyGyroMag.mean..
-fBodyBodyGyroMag.std..
-fBodyBodyGyroMag.mad..
-fBodyBodyGyroMag.max..
-fBodyBodyGyroMag.min..
-fBodyBodyGyroMag.sma..
-fBodyBodyGyroMag.energy..
-fBodyBodyGyroMag.iqr..
-fBodyBodyGyroMag.entropy..
-fBodyBodyGyroMag.maxInds
-fBodyBodyGyroMag.meanFreq..
-fBodyBodyGyroMag.skewness..
-fBodyBodyGyroMag.kurtosis..
-fBodyBodyGyroJerkMag.mean..
-fBodyBodyGyroJerkMag.std..
-fBodyBodyGyroJerkMag.mad..
-fBodyBodyGyroJerkMag.max..
-fBodyBodyGyroJerkMag.min..
-fBodyBodyGyroJerkMag.sma..
-fBodyBodyGyroJerkMag.energy..
-fBodyBodyGyroJerkMag.iqr..
-fBodyBodyGyroJerkMag.entropy..
-fBodyBodyGyroJerkMag.maxInds
-fBodyBodyGyroJerkMag.meanFreq..
-fBodyBodyGyroJerkMag.skewness..
-fBodyBodyGyroJerkMag.kurtosis..
-angle.tBodyAccMean.gravity.
-angle.tBodyAccJerkMean..gravityMean.
-angle.tBodyGyroMean.gravityMean.
-angle.tBodyGyroJerkMean.gravityMean.
-angle.X.gravityMean.
-angle.Y.gravityMean.
-angle.Z.gravityMean.
+      fBodyGyro.bandsEnergy...25.48
+      fBodyGyro.bandsEnergy...1.8.1
+      fBodyGyro.bandsEnergy...9.16.1
+      fBodyGyro.bandsEnergy...17.24.1
+      fBodyGyro.bandsEnergy...25.32.1
+      fBodyGyro.bandsEnergy...33.40.1
+      fBodyGyro.bandsEnergy...41.48.1
+      fBodyGyro.bandsEnergy...49.56.1
+      fBodyGyro.bandsEnergy...57.64.1
+      fBodyGyro.bandsEnergy...1.16.1
+      fBodyGyro.bandsEnergy...17.32.1
+      fBodyGyro.bandsEnergy...33.48.1
+      fBodyGyro.bandsEnergy...49.64.1
+      fBodyGyro.bandsEnergy...1.24.1
+      fBodyGyro.bandsEnergy...25.48.1
+      fBodyGyro.bandsEnergy...1.8.2
+      fBodyGyro.bandsEnergy...9.16.2
+      fBodyGyro.bandsEnergy...17.24.2
+      fBodyGyro.bandsEnergy...25.32.2
+      fBodyGyro.bandsEnergy...33.40.2
+      fBodyGyro.bandsEnergy...41.48.2
+      fBodyGyro.bandsEnergy...49.56.2
+      fBodyGyro.bandsEnergy...57.64.2
+      fBodyGyro.bandsEnergy...1.16.2
+      fBodyGyro.bandsEnergy...17.32.2
+      fBodyGyro.bandsEnergy...33.48.2
+      fBodyGyro.bandsEnergy...49.64.2
+      fBodyGyro.bandsEnergy...1.24.2
+      fBodyGyro.bandsEnergy...25.48.2
+      fBodyAccMag.mean..
+      fBodyAccMag.std..
+      fBodyAccMag.mad..
+      fBodyAccMag.max..
+      fBodyAccMag.min..
+      fBodyAccMag.sma..
+      fBodyAccMag.energy..
+      fBodyAccMag.iqr..
+      fBodyAccMag.entropy..
+      fBodyAccMag.maxInds
+      fBodyAccMag.meanFreq..
+      fBodyAccMag.skewness..
+      fBodyAccMag.kurtosis..
+      fBodyBodyAccJerkMag.mean..
+      fBodyBodyAccJerkMag.std..
+      fBodyBodyAccJerkMag.mad..
+      fBodyBodyAccJerkMag.max..
+      fBodyBodyAccJerkMag.min..
+      fBodyBodyAccJerkMag.sma..
+      fBodyBodyAccJerkMag.energy..
+      fBodyBodyAccJerkMag.iqr..
+      fBodyBodyAccJerkMag.entropy..
+      fBodyBodyAccJerkMag.maxInds
+      fBodyBodyAccJerkMag.meanFreq..
+      fBodyBodyAccJerkMag.skewness..
+      fBodyBodyAccJerkMag.kurtosis..
+      fBodyBodyGyroMag.mean..
+      fBodyBodyGyroMag.std..
+      fBodyBodyGyroMag.mad..
+      fBodyBodyGyroMag.max..
+      fBodyBodyGyroMag.min..
+      fBodyBodyGyroMag.sma..
+      fBodyBodyGyroMag.energy..
+      fBodyBodyGyroMag.iqr..
+      fBodyBodyGyroMag.entropy..
+      fBodyBodyGyroMag.maxInds
+      fBodyBodyGyroMag.meanFreq..
+      fBodyBodyGyroMag.skewness..
+      fBodyBodyGyroMag.kurtosis..
+      fBodyBodyGyroJerkMag.mean..
+      fBodyBodyGyroJerkMag.std..
+      fBodyBodyGyroJerkMag.mad..
+      fBodyBodyGyroJerkMag.max..
+      fBodyBodyGyroJerkMag.min..
+      fBodyBodyGyroJerkMag.sma..
+      fBodyBodyGyroJerkMag.energy..
+      fBodyBodyGyroJerkMag.iqr..
+      fBodyBodyGyroJerkMag.entropy..
+      fBodyBodyGyroJerkMag.maxInds
+      fBodyBodyGyroJerkMag.meanFreq..
+      fBodyBodyGyroJerkMag.skewness..
+      fBodyBodyGyroJerkMag.kurtosis..
+      angle.tBodyAccMean.gravity.
+      angle.tBodyAccJerkMean..gravityMean.
+      angle.tBodyGyroMean.gravityMean.
+      angle.tBodyGyroJerkMean.gravityMean.
+      angle.X.gravityMean.
+      angle.Y.gravityMean.
+      angle.Z.gravityMean.
 
  
  
