@@ -21,9 +21,11 @@ To merge the trainig and the test data set into one big complete data set we row
 
 We extract only the measurements measurements on the mean and standard deviation for each activity by making use of select and contains. Then, we store the result in DATAselected.
 
+In order to create a second, independent tidy data set with the average of each variable for each activity and each subject:
+1) we group DATAselected by subject_no and activity_name
+2) then, we take the average of each variable grouped by activity and subject.
 
-
-
+The final data set is stored in FINAL_DATA. Finally, we turn it into a txt file.
 
 
 
