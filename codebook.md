@@ -1,15 +1,15 @@
 
 The codebook includes the variables' names of the following data sets:
 
-FEATURES
-ACTIVITY_LABELs
-SUBJECT_TRAIN
-SUBJECT_TEST
-y_TRAIN
-y_TEST
-X_TRAIN 
-X_TEST 
-FINAL_DATA
+     FEATURES
+     ACTIVITY_LABELS
+     SUBJECT_TRAIN
+     SUBJECT_TEST
+     y_TRAIN
+     y_TEST
+     X_TRAIN 
+     X_TEST 
+     FINAL_DATA
 
 
 
