@@ -1,9 +1,8 @@
 FEATURES
 
-V1:  1..561 
+V1:  1...561 
 
-V2:  Variable Names (Duplicated variable names are detected and then corrected by the command 
-    FEATURES[,2] <- make.names(FEATURES[,2], unique = TRUE)
+V2:  Variable Names (Duplicated variable names are detected and then corrected). 
 
 
 ACTIVITY LABELS
@@ -11,7 +10,7 @@ ACTIVITY LABELS
 V1: 1..6 These labels correspond to each different activity 
 
 V2: For the purpose of clarity this column name later replaced with 
-    "Activity Name". It indicates each of activities the subjects performed.
+    "Activity_Name". It indicates each of the activities the subjects performed.
     
     WALKING
     WALKING_UPSTAIRS
@@ -40,13 +39,13 @@ V1: For the purpose of clarity this column name later replaced with
 y_TRAIN
 
 V1: Each label represents the activity the subject in the training
-    group performed for each window sample.
+    group performed.
 
 
 y_TEST
 
 V1: Each label represents the activity the subject in the test
-    group performed for each window sample.
+    group performed.
 
 
 
@@ -55,79 +54,79 @@ V1: Each label represents the activity the subject in the test
       tBodyAcc.mean...X
       tBodyAcc.mean...Y
       tBodyAcc.mean...Z
-tBodyAcc.std...X
-tBodyAcc.std...Y
-tBodyAcc.std...Z
-tBodyAcc.mad...X
-tBodyAcc.mad...Y
-tBodyAcc.mad...Z
-tBodyAcc.max...X
-tBodyAcc.max...Y
-tBodyAcc.max...Z
-tBodyAcc.min...X
-tBodyAcc.min...Y
-tBodyAcc.min...Z
-tBodyAcc.sma..
-tBodyAcc.energy...X
-tBodyAcc.energy...Y
-tBodyAcc.energy...Z
-tBodyAcc.iqr...X
-tBodyAcc.iqr...Y
-tBodyAcc.iqr...Z
-tBodyAcc.entropy...X
-tBodyAcc.entropy...Y
-tBodyAcc.entropy...Z
-tBodyAcc.arCoeff...X.1
-tBodyAcc.arCoeff...X.2
-tBodyAcc.arCoeff...X.3
-tBodyAcc.arCoeff...X.4
-tBodyAcc.arCoeff...Y.1
-tBodyAcc.arCoeff...Y.2
-tBodyAcc.arCoeff...Y.3
-tBodyAcc.arCoeff...Y.4
-tBodyAcc.arCoeff...Z.1
-tBodyAcc.arCoeff...Z.2
-tBodyAcc.arCoeff...Z.3
-tBodyAcc.arCoeff...Z.4
-tBodyAcc.correlation...X.Y
-tBodyAcc.correlation...X.Z
-tBodyAcc.correlation...Y.Z
-tGravityAcc.mean...X
-tGravityAcc.mean...Y
-tGravityAcc.mean...Z
-tGravityAcc.std...X
-tGravityAcc.std...Y
-tGravityAcc.std...Z
-tGravityAcc.mad...X
-tGravityAcc.mad...Y
-tGravityAcc.mad...Z
-tGravityAcc.max...X
-tGravityAcc.max...Y
-tGravityAcc.max...Z
-tGravityAcc.min...X
-tGravityAcc.min...Y
-tGravityAcc.min...Z
-tGravityAcc.sma..
-tGravityAcc.energy...X
-tGravityAcc.energy...Y
-tGravityAcc.energy...Z
-tGravityAcc.iqr...X
-tGravityAcc.iqr...Y
-tGravityAcc.iqr...Z
-tGravityAcc.entropy...X
-tGravityAcc.entropy...Y
-tGravityAcc.entropy...Z
-tGravityAcc.arCoeff...X.1
-tGravityAcc.arCoeff...X.2
-tGravityAcc.arCoeff...X.3
-tGravityAcc.arCoeff...X.4
-tGravityAcc.arCoeff...Y.1
-tGravityAcc.arCoeff...Y.2
-tGravityAcc.arCoeff...Y.3
-tGravityAcc.arCoeff...Y.4
-tGravityAcc.arCoeff...Z.1
-tGravityAcc.arCoeff...Z.2
-tGravityAcc.arCoeff...Z.3
+      tBodyAcc.std...X
+      tBodyAcc.std...Y
+      tBodyAcc.std...Z
+      tBodyAcc.mad...X
+      tBodyAcc.mad...Y
+      tBodyAcc.mad...Z
+      tBodyAcc.max...X
+      tBodyAcc.max...Y
+      tBodyAcc.max...Z
+      tBodyAcc.min...X
+      tBodyAcc.min...Y
+      tBodyAcc.min...Z
+      tBodyAcc.sma..
+      tBodyAcc.energy...X
+      tBodyAcc.energy...Y
+      tBodyAcc.energy...Z
+      tBodyAcc.iqr...X
+      tBodyAcc.iqr...Y
+      tBodyAcc.iqr...Z
+      tBodyAcc.entropy...X
+      tBodyAcc.entropy...Y
+      tBodyAcc.entropy...Z
+      tBodyAcc.arCoeff...X.1
+      tBodyAcc.arCoeff...X.2
+      tBodyAcc.arCoeff...X.3
+      tBodyAcc.arCoeff...X.4
+      tBodyAcc.arCoeff...Y.1
+      tBodyAcc.arCoeff...Y.2
+      tBodyAcc.arCoeff...Y.3
+      tBodyAcc.arCoeff...Y.4
+      tBodyAcc.arCoeff...Z.1
+      tBodyAcc.arCoeff...Z.2
+      tBodyAcc.arCoeff...Z.3
+      tBodyAcc.arCoeff...Z.4
+      tBodyAcc.correlation...X.Y
+      tBodyAcc.correlation...X.Z
+      tBodyAcc.correlation...Y.Z
+      tGravityAcc.mean...X
+      tGravityAcc.mean...Y
+      tGravityAcc.mean...Z
+      tGravityAcc.std...X
+      tGravityAcc.std...Y
+      tGravityAcc.std...Z
+      tGravityAcc.mad...X
+      tGravityAcc.mad...Y
+      tGravityAcc.mad...Z
+      tGravityAcc.max...X
+      tGravityAcc.max...Y
+      tGravityAcc.max...Z
+      tGravityAcc.min...X
+      tGravityAcc.min...Y
+      tGravityAcc.min...Z
+      tGravityAcc.sma..
+      tGravityAcc.energy...X
+      tGravityAcc.energy...Y
+      tGravityAcc.energy...Z
+      tGravityAcc.iqr...X
+      tGravityAcc.iqr...Y
+      tGravityAcc.iqr...Z
+      tGravityAcc.entropy...X
+      tGravityAcc.entropy...Y
+      tGravityAcc.entropy...Z
+      tGravityAcc.arCoeff...X.1
+      tGravityAcc.arCoeff...X.2
+      tGravityAcc.arCoeff...X.3
+      tGravityAcc.arCoeff...X.4
+      tGravityAcc.arCoeff...Y.1
+      tGravityAcc.arCoeff...Y.2
+      tGravityAcc.arCoeff...Y.3
+      tGravityAcc.arCoeff...Y.4
+      tGravityAcc.arCoeff...Z.1
+      tGravityAcc.arCoeff...Z.2
+      tGravityAcc.arCoeff...Z.3
 tGravityAcc.arCoeff...Z.4
 tGravityAcc.correlation...X.Y
 tGravityAcc.correlation...X.Z
