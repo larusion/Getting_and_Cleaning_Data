@@ -509,21 +509,21 @@ V1: Each label represents the activity the subject in the test
       fBodyGyro.kurtosis...X
       fBodyGyro.skewness...Y
       fBodyGyro.kurtosis...Y
-fBodyGyro.skewness...Z
-fBodyGyro.kurtosis...Z
-fBodyGyro.bandsEnergy...1.8
-fBodyGyro.bandsEnergy...9.16
-fBodyGyro.bandsEnergy...17.24
-fBodyGyro.bandsEnergy...25.32
-fBodyGyro.bandsEnergy...33.40
-fBodyGyro.bandsEnergy...41.48
-fBodyGyro.bandsEnergy...49.56
-fBodyGyro.bandsEnergy...57.64
-fBodyGyro.bandsEnergy...1.16
-fBodyGyro.bandsEnergy...17.32
-fBodyGyro.bandsEnergy...33.48
-fBodyGyro.bandsEnergy...49.64
-fBodyGyro.bandsEnergy...1.24
+      fBodyGyro.skewness...Z
+      fBodyGyro.kurtosis...Z
+      fBodyGyro.bandsEnergy...1.8
+      fBodyGyro.bandsEnergy...9.16
+      fBodyGyro.bandsEnergy...17.24
+      fBodyGyro.bandsEnergy...25.32
+      fBodyGyro.bandsEnergy...33.40
+      fBodyGyro.bandsEnergy...41.48
+      fBodyGyro.bandsEnergy...49.56
+      fBodyGyro.bandsEnergy...57.64
+      fBodyGyro.bandsEnergy...1.16
+      fBodyGyro.bandsEnergy...17.32
+      fBodyGyro.bandsEnergy...33.48
+      fBodyGyro.bandsEnergy...49.64
+      fBodyGyro.bandsEnergy...1.24
 fBodyGyro.bandsEnergy...25.48
 fBodyGyro.bandsEnergy...1.8.1
 fBodyGyro.bandsEnergy...9.16.1
