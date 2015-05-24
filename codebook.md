@@ -7,7 +7,7 @@ FEATURES
 
 ACTIVITY LABELS
 
-V1: 1..6 These labels correspond to each different activity 
+    V1: 1..6 These labels correspond to each different activity 
 
     V2: For the purpose of clarity this column name later replaced with 
     "Activity_Name". It indicates each of the activities the subjects performed.
