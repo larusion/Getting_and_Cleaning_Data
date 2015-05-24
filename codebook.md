@@ -48,7 +48,9 @@ y_TEST
     group performed.
 
 
-X_TRAIN and X_TEST
+X_TRAIN and X_TEST 
+
+      The variables of both of these data sets' are the same and given as follows.  
      
       tBodyAcc.mean...X
       tBodyAcc.mean...Y
@@ -619,6 +621,8 @@ X_TRAIN and X_TEST
  
 FINAL_DATA
       
+      subject_no
+      activity_name
       tBodyAcc.mean...X
       tBodyAcc.mean...Y
       tBodyAcc.mean...Z
