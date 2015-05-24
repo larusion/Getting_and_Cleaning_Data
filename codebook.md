@@ -1,15 +1,15 @@
 FEATURES
 
-V1:  1...561 
+    V1:  1...561 
 
-V2:  Variable Names (Duplicated variable names are detected and then corrected). 
+    V2:  Variable Names (Duplicated variable names are detected and then corrected). 
 
 
 ACTIVITY LABELS
 
 V1: 1..6 These labels correspond to each different activity 
 
-V2: For the purpose of clarity this column name later replaced with 
+    V2: For the purpose of clarity this column name later replaced with 
     "Activity_Name". It indicates each of the activities the subjects performed.
     
     WALKING
@@ -22,7 +22,7 @@ V2: For the purpose of clarity this column name later replaced with
     
 SUBJECT_TRAIN
 
-V1: For the purpose of clarity this column name later replaced with 
+    V1: For the purpose of clarity this column name later replaced with 
     "subject_no". Each row identifies the subject in the training 
     group who performed the activity for each window sample. 
     
@@ -30,7 +30,7 @@ V1: For the purpose of clarity this column name later replaced with
     
 SUBJECT_TEST
 
-V1: For the purpose of clarity this column name later replaced with 
+    V1: For the purpose of clarity this column name later replaced with 
     "subject_no". Each row identifies the subject in the test 
     group who performed the activity for each window sample. 
          
@@ -38,18 +38,17 @@ V1: For the purpose of clarity this column name later replaced with
 
 y_TRAIN
 
-V1: Each label represents the activity the subject in the training
+    V1: Each label represents the activity the subject in the training
     group performed.
 
 
 y_TEST
 
-V1: Each label represents the activity the subject in the test
+    V1: Each label represents the activity the subject in the test
     group performed.
 
 
-
- X_TRAIN
+X_TRAIN and X_TEST
      
       tBodyAcc.mean...X
       tBodyAcc.mean...Y
@@ -616,9 +615,9 @@ V1: Each label represents the activity the subject in the test
  
  
  
- X_TEST
  
-      FINAL_DATA
+ 
+FINAL_DATA
       
       tBodyAcc.mean...X
       tBodyAcc.mean...Y
@@ -666,290 +665,39 @@ V1: Each label represents the activity the subject in the test
       fBodyAcc.std...X
       fBodyAcc.std...Y
       fBodyAcc.std...Z
-      fBodyAcc.mad...X
-      fBodyAcc.mad...Y
-      fBodyAcc.mad...Z
-      fBodyAcc.max...X
-      fBodyAcc.max...Y
-      fBodyAcc.max...Z
-      fBodyAcc.min...X
-      fBodyAcc.min...Y
-      fBodyAcc.min...Z
-      fBodyAcc.sma..
-      fBodyAcc.energy...X
-      fBodyAcc.energy...Y
-      fBodyAcc.energy...Z
-      fBodyAcc.iqr...X
-      fBodyAcc.iqr...Y
-      fBodyAcc.iqr...Z
-      fBodyAcc.entropy...X
-      fBodyAcc.entropy...Y
-      fBodyAcc.entropy...Z
-      fBodyAcc.maxInds.X
-      fBodyAcc.maxInds.Y
-      fBodyAcc.maxInds.Z
       fBodyAcc.meanFreq...X
       fBodyAcc.meanFreq...Y
       fBodyAcc.meanFreq...Z
-      fBodyAcc.skewness...X
-      fBodyAcc.kurtosis...X
-      fBodyAcc.skewness...Y
-      fBodyAcc.kurtosis...Y
-      fBodyAcc.skewness...Z
-      fBodyAcc.kurtosis...Z
-      fBodyAcc.bandsEnergy...1.8
-      fBodyAcc.bandsEnergy...9.16
-      fBodyAcc.bandsEnergy...17.24
-      fBodyAcc.bandsEnergy...25.32
-      fBodyAcc.bandsEnergy...33.40
-      fBodyAcc.bandsEnergy...41.48
-      fBodyAcc.bandsEnergy...49.56
-      fBodyAcc.bandsEnergy...57.64
-      fBodyAcc.bandsEnergy...1.16
-      fBodyAcc.bandsEnergy...17.32
-      fBodyAcc.bandsEnergy...33.48
-      fBodyAcc.bandsEnergy...49.64
-      fBodyAcc.bandsEnergy...1.24
-      fBodyAcc.bandsEnergy...25.48
-      fBodyAcc.bandsEnergy...1.8.1
-      fBodyAcc.bandsEnergy...9.16.1
-      fBodyAcc.bandsEnergy...17.24.1
-      fBodyAcc.bandsEnergy...25.32.1
-      fBodyAcc.bandsEnergy...33.40.1
-      fBodyAcc.bandsEnergy...41.48.1
-      fBodyAcc.bandsEnergy...49.56.1
-      fBodyAcc.bandsEnergy...57.64.1
-      fBodyAcc.bandsEnergy...1.16.1
-      fBodyAcc.bandsEnergy...17.32.1
-      fBodyAcc.bandsEnergy...33.48.1
-      fBodyAcc.bandsEnergy...49.64.1
-      fBodyAcc.bandsEnergy...1.24.1
-      fBodyAcc.bandsEnergy...25.48.1
-      fBodyAcc.bandsEnergy...1.8.2
-      fBodyAcc.bandsEnergy...9.16.2
-      fBodyAcc.bandsEnergy...17.24.2
-      fBodyAcc.bandsEnergy...25.32.2
-      fBodyAcc.bandsEnergy...33.40.2
-      fBodyAcc.bandsEnergy...41.48.2
-      fBodyAcc.bandsEnergy...49.56.2
-      fBodyAcc.bandsEnergy...57.64.2
-      fBodyAcc.bandsEnergy...1.16.2
-      fBodyAcc.bandsEnergy...17.32.2
-      fBodyAcc.bandsEnergy...33.48.2
-      fBodyAcc.bandsEnergy...49.64.2
-      fBodyAcc.bandsEnergy...1.24.2
-      fBodyAcc.bandsEnergy...25.48.2
       fBodyAccJerk.mean...X
       fBodyAccJerk.mean...Y
       fBodyAccJerk.mean...Z
       fBodyAccJerk.std...X
       fBodyAccJerk.std...Y
       fBodyAccJerk.std...Z
-      fBodyAccJerk.mad...X
-      fBodyAccJerk.mad...Y
-      fBodyAccJerk.mad...Z
-      fBodyAccJerk.max...X
-      fBodyAccJerk.max...Y
-      fBodyAccJerk.max...Z
-      fBodyAccJerk.min...X
-      fBodyAccJerk.min...Y
-      fBodyAccJerk.min...Z
-      fBodyAccJerk.sma..
-      fBodyAccJerk.energy...X
-      fBodyAccJerk.energy...Y
-      fBodyAccJerk.energy...Z
-      fBodyAccJerk.iqr...X
-      fBodyAccJerk.iqr...Y
-      fBodyAccJerk.iqr...Z
-      fBodyAccJerk.entropy...X
-      fBodyAccJerk.entropy...Y
-      fBodyAccJerk.entropy...Z
-      fBodyAccJerk.maxInds.X
-      fBodyAccJerk.maxInds.Y
-      fBodyAccJerk.maxInds.Z
       fBodyAccJerk.meanFreq...X
       fBodyAccJerk.meanFreq...Y
       fBodyAccJerk.meanFreq...Z
-      fBodyAccJerk.skewness...X
-      fBodyAccJerk.kurtosis...X
-      fBodyAccJerk.skewness...Y
-      fBodyAccJerk.kurtosis...Y
-      fBodyAccJerk.skewness...Z
-      fBodyAccJerk.kurtosis...Z
-      fBodyAccJerk.bandsEnergy...1.8
-      fBodyAccJerk.bandsEnergy...9.16
-      fBodyAccJerk.bandsEnergy...17.24
-      fBodyAccJerk.bandsEnergy...25.32
-      fBodyAccJerk.bandsEnergy...33.40
-      fBodyAccJerk.bandsEnergy...41.48
-      fBodyAccJerk.bandsEnergy...49.56
-      fBodyAccJerk.bandsEnergy...57.64
-      fBodyAccJerk.bandsEnergy...1.16
-      fBodyAccJerk.bandsEnergy...17.32
-      fBodyAccJerk.bandsEnergy...33.48
-      fBodyAccJerk.bandsEnergy...49.64
-      fBodyAccJerk.bandsEnergy...1.24
-      fBodyAccJerk.bandsEnergy...25.48
-      fBodyAccJerk.bandsEnergy...1.8.1
-      fBodyAccJerk.bandsEnergy...9.16.1
-      fBodyAccJerk.bandsEnergy...17.24.1
-      fBodyAccJerk.bandsEnergy...25.32.1
-      fBodyAccJerk.bandsEnergy...33.40.1
-      fBodyAccJerk.bandsEnergy...41.48.1
-      fBodyAccJerk.bandsEnergy...49.56.1
-      fBodyAccJerk.bandsEnergy...57.64.1
-      fBodyAccJerk.bandsEnergy...1.16.1
-      fBodyAccJerk.bandsEnergy...17.32.1
-      fBodyAccJerk.bandsEnergy...33.48.1
-      fBodyAccJerk.bandsEnergy...49.64.1
-      fBodyAccJerk.bandsEnergy...1.24.1
-      fBodyAccJerk.bandsEnergy...25.48.1
-      fBodyAccJerk.bandsEnergy...1.8.2
-      fBodyAccJerk.bandsEnergy...9.16.2
-      fBodyAccJerk.bandsEnergy...17.24.2
-      fBodyAccJerk.bandsEnergy...25.32.2
-      fBodyAccJerk.bandsEnergy...33.40.2
-      fBodyAccJerk.bandsEnergy...41.48.2
-      fBodyAccJerk.bandsEnergy...49.56.2
-      fBodyAccJerk.bandsEnergy...57.64.2
-      fBodyAccJerk.bandsEnergy...1.16.2
-      fBodyAccJerk.bandsEnergy...17.32.2
-      fBodyAccJerk.bandsEnergy...33.48.2
-      fBodyAccJerk.bandsEnergy...49.64.2
-      fBodyAccJerk.bandsEnergy...1.24.2
-      fBodyAccJerk.bandsEnergy...25.48.2
       fBodyGyro.mean...X
       fBodyGyro.mean...Y
       fBodyGyro.mean...Z
       fBodyGyro.std...X
       fBodyGyro.std...Y
       fBodyGyro.std...Z
-      fBodyGyro.mad...X
-      fBodyGyro.mad...Y
-      fBodyGyro.mad...Z
-      fBodyGyro.max...X
-      fBodyGyro.max...Y
-      fBodyGyro.max...Z
-      fBodyGyro.min...X
-      fBodyGyro.min...Y
-      fBodyGyro.min...Z
-      fBodyGyro.sma..
-      fBodyGyro.energy...X
-      fBodyGyro.energy...Y
-      fBodyGyro.energy...Z
-      fBodyGyro.iqr...X
-      fBodyGyro.iqr...Y
-      fBodyGyro.iqr...Z
-      fBodyGyro.entropy...X
-      fBodyGyro.entropy...Y
-      fBodyGyro.entropy...Z
-      fBodyGyro.maxInds.X
-      fBodyGyro.maxInds.Y
-      fBodyGyro.maxInds.Z
       fBodyGyro.meanFreq...X
       fBodyGyro.meanFreq...Y
       fBodyGyro.meanFreq...Z
-      fBodyGyro.skewness...X
-      fBodyGyro.kurtosis...X
-      fBodyGyro.skewness...Y
-      fBodyGyro.kurtosis...Y
-      fBodyGyro.skewness...Z
-      fBodyGyro.kurtosis...Z
-      fBodyGyro.bandsEnergy...1.8
-      fBodyGyro.bandsEnergy...9.16
-      fBodyGyro.bandsEnergy...17.24
-      fBodyGyro.bandsEnergy...25.32
-      fBodyGyro.bandsEnergy...33.40
-      fBodyGyro.bandsEnergy...41.48
-      fBodyGyro.bandsEnergy...49.56
-      fBodyGyro.bandsEnergy...57.64
-      fBodyGyro.bandsEnergy...1.16
-      fBodyGyro.bandsEnergy...17.32
-      fBodyGyro.bandsEnergy...33.48
-      fBodyGyro.bandsEnergy...49.64
-      fBodyGyro.bandsEnergy...1.24
-      fBodyGyro.bandsEnergy...25.48
-      fBodyGyro.bandsEnergy...1.8.1
-      fBodyGyro.bandsEnergy...9.16.1
-      fBodyGyro.bandsEnergy...17.24.1
-      fBodyGyro.bandsEnergy...25.32.1
-      fBodyGyro.bandsEnergy...33.40.1
-      fBodyGyro.bandsEnergy...41.48.1
-      fBodyGyro.bandsEnergy...49.56.1
-      fBodyGyro.bandsEnergy...57.64.1
-      fBodyGyro.bandsEnergy...1.16.1
-      fBodyGyro.bandsEnergy...17.32.1
-      fBodyGyro.bandsEnergy...33.48.1
-      fBodyGyro.bandsEnergy...49.64.1
-      fBodyGyro.bandsEnergy...1.24.1
-      fBodyGyro.bandsEnergy...25.48.1
-      fBodyGyro.bandsEnergy...1.8.2
-      fBodyGyro.bandsEnergy...9.16.2
-      fBodyGyro.bandsEnergy...17.24.2
-      fBodyGyro.bandsEnergy...25.32.2
-      fBodyGyro.bandsEnergy...33.40.2
-      fBodyGyro.bandsEnergy...41.48.2
-      fBodyGyro.bandsEnergy...49.56.2
-      fBodyGyro.bandsEnergy...57.64.2
-      fBodyGyro.bandsEnergy...1.16.2
-      fBodyGyro.bandsEnergy...17.32.2
-      fBodyGyro.bandsEnergy...33.48.2
-      fBodyGyro.bandsEnergy...49.64.2
-      fBodyGyro.bandsEnergy...1.24.2
-      fBodyGyro.bandsEnergy...25.48.2
       fBodyAccMag.mean..
       fBodyAccMag.std..
-      fBodyAccMag.mad..
-      fBodyAccMag.max..
-      fBodyAccMag.min..
-      fBodyAccMag.sma..
-      fBodyAccMag.energy..
-      fBodyAccMag.iqr..
-      fBodyAccMag.entropy..
-      fBodyAccMag.maxInds
       fBodyAccMag.meanFreq..
-      fBodyAccMag.skewness..
-      fBodyAccMag.kurtosis..
       fBodyBodyAccJerkMag.mean..
       fBodyBodyAccJerkMag.std..
-      fBodyBodyAccJerkMag.mad..
-      fBodyBodyAccJerkMag.max..
-      fBodyBodyAccJerkMag.min..
-      fBodyBodyAccJerkMag.sma..
-      fBodyBodyAccJerkMag.energy..
-      fBodyBodyAccJerkMag.iqr..
-      fBodyBodyAccJerkMag.entropy..
-      fBodyBodyAccJerkMag.maxInds
       fBodyBodyAccJerkMag.meanFreq..
-      fBodyBodyAccJerkMag.skewness..
-      fBodyBodyAccJerkMag.kurtosis..
       fBodyBodyGyroMag.mean..
       fBodyBodyGyroMag.std..
-      fBodyBodyGyroMag.mad..
-      fBodyBodyGyroMag.max..
-      fBodyBodyGyroMag.min..
-      fBodyBodyGyroMag.sma..
-      fBodyBodyGyroMag.energy..
-      fBodyBodyGyroMag.iqr..
-      fBodyBodyGyroMag.entropy..
-      fBodyBodyGyroMag.maxInds
       fBodyBodyGyroMag.meanFreq..
-      fBodyBodyGyroMag.skewness..
-      fBodyBodyGyroMag.kurtosis..
       fBodyBodyGyroJerkMag.mean..
       fBodyBodyGyroJerkMag.std..
-      fBodyBodyGyroJerkMag.mad..
-      fBodyBodyGyroJerkMag.max..
-      fBodyBodyGyroJerkMag.min..
-      fBodyBodyGyroJerkMag.sma..
-      fBodyBodyGyroJerkMag.energy..
-      fBodyBodyGyroJerkMag.iqr..
-      fBodyBodyGyroJerkMag.entropy..
-      fBodyBodyGyroJerkMag.maxInds
       fBodyBodyGyroJerkMag.meanFreq..
-      fBodyBodyGyroJerkMag.skewness..
-      fBodyBodyGyroJerkMag.kurtosis..
-      angle.tBodyAccMean.gravity.
       angle.tBodyAccJerkMean..gravityMean.
       angle.tBodyGyroMean.gravityMean.
       angle.tBodyGyroJerkMean.gravityMean.
