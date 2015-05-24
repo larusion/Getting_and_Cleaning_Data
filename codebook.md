@@ -17,7 +17,7 @@ FEATURES
 
     V1:  1...561 
 
-    V2:  Variable Names (Duplicated variable names are detected and then corrected). 
+    V2:  List of all features. (Duplicated variable names are detected and then corrected). 
 
 
 ACTIVITY_LABELS
