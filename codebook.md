@@ -1,3 +1,18 @@
+
+The codebook includes the variables' names of the following data sets:
+
+FEATURES
+ACTIVITY_LABELs
+SUBJECT_TRAIN
+SUBJECT_TEST
+y_TRAIN
+y_TEST
+X_TRAIN 
+X_TEST 
+FINAL_DATA
+
+
+
 FEATURES
 
     V1:  1...561 
@@ -5,7 +20,7 @@ FEATURES
     V2:  Variable Names (Duplicated variable names are detected and then corrected). 
 
 
-ACTIVITY LABELS
+ACTIVITY_LABELS
 
     V1: 1..6 These labels correspond to each different activity 
 
