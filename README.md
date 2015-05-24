@@ -17,7 +17,7 @@ The three data frames that are SUBJECT_TEST, joinedtrain and X_TEST are ready to
 
 The steps carried out for the train data set are executed the test data set set as well. Then we end up with the data frame called TEST. 
 
-To merge the trainig and the test data set into one big complete data set we rowbind TEST and TRAIN. 
+To merge the trainig and the test data set into one big complete data set, we rowbind TEST and TRAIN. We strore the result the "DATA". 
 
 We extract only the measurements measurements on the mean and standard deviation for each activity by making use of select and contains. Then, we store the result in DATAselected.
 
