@@ -52,9 +52,9 @@ V1: Each label represents the activity the subject in the test
 
  X_TRAIN
      
-tBodyAcc.mean...X
-tBodyAcc.mean...Y
-tBodyAcc.mean...Z
+      tBodyAcc.mean...X
+      tBodyAcc.mean...Y
+      tBodyAcc.mean...Z
 tBodyAcc.std...X
 tBodyAcc.std...Y
 tBodyAcc.std...Z
