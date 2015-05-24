@@ -636,7 +636,7 @@ X_TRAIN and X_TEST
  
 FINAL_DATA
       
-     This is the final output. The subject_no represents each volunteer and the activity name describes the activity the          volunteer performed. The rest of the variable names represents the average of their respective variable for each             activity and each subject.
+This is the final output. The subject_no represents each volunteer and the activity name describes the activity the          volunteer performed. The rest of the variable names represents the average of their respective variable for each             activity and each subject.
       
       subject_no
       activity_name
